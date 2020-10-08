@@ -4,7 +4,7 @@ const port = 8080
 const ip= '0.0.0.0'
 
 app.get('/', (req, res) => {
-    res.send('Hello World!')
+    res.send('Hola Open Shift!')
 })
 
 app.listen(port, () => {
